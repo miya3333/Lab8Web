@@ -1,0 +1,109 @@
+/* Gaya untuk halaman utama */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px #0000001a;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk tabel */
+/* Gaya untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center; /* Pusatkan teks pada tabel */
+    vertical-align: middle; /* Pusatkan konten vertikal */
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table img {
+    display: block;
+    margin: 0 auto; /* Pusatkan gambar di dalam sel */
+    max-width: 100px; /* Ukuran maksimum untuk gambar */
+    height: auto;
+}
+
+/* Gaya untuk tombol aksi */
+.table-actions a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.table-actions a.ubah {
+    background-color: #007BFF; /* Warna biru untuk tombol Ubah */
+}
+
+.table-actions a.ubah:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+}
+
+.table-actions a.hapus {
+    background-color: #DC3545; /* Warna merah untuk tombol Hapus */
+}
+
+.table-actions a.hapus:hover {
+    background-color: #A71D2A; /* Warna merah lebih gelap saat hover */
+}
+
+
+/* Gaya untuk teks */
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #555;
+}
